@@ -1,0 +1,14 @@
+name: box
+on:
+  push:
+    branches : [main]
+  pull_request:
+    branches : [test]
+jobs:
+  Pro:
+    runs-on: ubuntu-latest
+    steps:
+     - name: hello
+       run: open Demo.html
+  
+  
